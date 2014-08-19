@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/saveToGalleryBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gallery"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/saveToDatabaseBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Database"
+            android:layout_weight="1"/>
+
+        </RadioGroup>
+
+</LinearLayout>

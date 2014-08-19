@@ -1,0 +1,1 @@
+include ':KawaseTest', ':LibraryTest', ':MapTest', ':OpenCVTest', ':CameraDemoModlue', ':app', ':CameraAndTrimDemoModlue', ':CameraAndTrimDemoModlue'

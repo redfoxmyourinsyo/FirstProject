@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/cameraBtn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:onClick="onItemClicked"
+        android:scaleType="fitCenter"
+        android:src="@drawable/camera" />
+
+    <ImageButton
+        android:id="@+id/galleryBtn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:onClick="onItemClicked"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gallery" />
+
+    <ImageButton
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:onClick="onItemClicked"
+        android:scaleType="fitCenter"
+        android:src="@drawable/save" />
+
+</LinearLayout>
