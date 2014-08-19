@@ -65,7 +65,7 @@ public class OpenActivityManager {
         //Intent.ACTION_GET_CONTENT
         //この三つの方法でギャラリーを開くことができる
         //ACTION_PICKを使って取得したUriは様々な端末の対応ができそう。
-        //他のActionは端末によって、dataがnullになったりする。
+        //他のActionは端末によって、dataがnull!!!になったりする。
         intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
         intent.putExtra(MediaStore.EXTRA_OUTPUT, MyApplication.getInstance().getPhotoUri());
         _act.startActivityForResult(intent, Constant.SYSTEM_CAMERA_REQUEST_CODE);
